@@ -30,13 +30,13 @@ public class StarterApplication extends Application {
 
     // Codigo de configuração do App
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-            .applicationId("APPLICATION_ID_AQUI")
-            .clientKey(null)
-            .server("URL_SERVIDOR")
+            .applicationId("IL64hdS0U3zpDaMewvGeajJOkyO2pp360x7Wn4Vt")
+            .clientKey("C94DHqJDotuoXDz0MAuquiDRLe3w1QdGaDCPh9E7")
+            .server("https://parseapi.back4app.com/")
     .build()
     );
 
-    /*
+
       // Teste de configuração do App
       ParseObject pontuacao = new ParseObject("Pontuacao");
       pontuacao.put("pontos", 100);
@@ -49,7 +49,7 @@ public class StarterApplication extends Application {
               }
           }
       });
-    */
+
 
       ParseUser.enableAutomaticUser();
     ParseACL defaultACL = new ParseACL();
